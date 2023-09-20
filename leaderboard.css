@@ -1,0 +1,128 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+table {
+    width: 50%;
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: grey;
+    box-shadow: 5px 5px rgb(255 181 0);
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    display: table;
+    position: absolute;
+    transform: translate(50%, 200%);
+    border-radius: 40px;
+}
+
+thead {
+    background-color: blue;
+    color: white;
+}
+
+td, th {
+    padding: 10px;
+    padding-left:20px;
+    padding-right:20px;
+    text-align: center;
+    
+}
+
+
+.name{
+    background-color: rgb(255 181 0);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto;
+    padding-right: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 30%;
+    border-radius: 20px;
+    transform: translate(0, 320%);
+}
+
+.name .avatar{
+    width: 34px;
+    height: 34px;
+    margin: 20px auto;
+    transform: translate(35%, -57%);
+}
+
+.primary button {
+    background-color: #f48f8f; 
+    color: black; 
+    
+}
+
+.primary {
+
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-align: center; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 30px;
+    transition: 0.65s ease;
+    align-items: center;
+    transform: translate(0, 330%);
+}
+  
+
+.primary button:hover {
+    background-color: #896161;
+    color: white;
+}
+
+.tabs-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+  
+
+.tab {
+    background-color: #f48f8f;
+    border: none;
+    border-bottom: none;
+    border-radius: 25px;
+    color: #000;
+    cursor: pointer;
+    font-size: 17px;
+    margin-right: 0.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    padding: 18px;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+
+.tab:hover {
+    background-color: #896161;
+    color: white;
+}
+
+
+.tab.active {
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+}
+  
+ 
+  
+  

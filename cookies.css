@@ -1,0 +1,30 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+}
+.avatar {
+    border-radius: 50%;
+    height: 150px;
+    margin: 20px auto;
+    width: 150px;
+}
+.name {
+    background-color: #4CAF50;
+    border-radius: 5px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px;
+    width: 80%;
+}
